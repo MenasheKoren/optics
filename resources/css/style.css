@@ -24,12 +24,26 @@ header {
   height: 30rem;
   font-style: 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .logo {
   background-color: cadetblue;
-  display: inline-flex;
-  flex-direction: row;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+nav {
+  display: inline;
+}
+
+h2 {
+  background-color: cadetblue;
+  color: white;
+}
+
+footer {
+  background-color: azure;
 }
