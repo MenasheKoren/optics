@@ -12,6 +12,7 @@ html {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 ul {
@@ -57,6 +58,15 @@ main {
   background-color: #fff;
 }
 
-footer {
+main ul {
+  display: flex;
+}
+
+main li {
+  display: flex;
+  flex-direction: column;
+}
+
+fl footer {
   background-color: azure;
 }
