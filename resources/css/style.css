@@ -37,10 +37,14 @@ header {
 }
 
 nav {
-  display: inline;
+  display: inline-block;
 }
 
-h1 {
+.main-banner {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 10rem;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
@@ -67,6 +71,9 @@ main li {
   flex-direction: column;
 }
 
-fl footer {
+footer {
   background-color: azure;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
