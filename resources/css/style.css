@@ -3,6 +3,7 @@ html {
   font-family: Helvetica;
   font-size  : 18px;
   line-height: 1.4;
+  margin     : 0;
 }
 
 .container {
@@ -45,12 +46,14 @@ nav {
   display         : flex;
   position        : relative;
   margin-top      : 10rem;
+  margin-right    : -2rem;
   padding         : 1.5rem 5rem;
   background-color: white;
   font-size       : 2rem;
   font-weight     : bold;
   justify-content : flex-end;
   line-height     : 1.2;
+  float           : right;
 }
 
 h2 {
