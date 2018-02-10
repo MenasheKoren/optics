@@ -25,7 +25,7 @@ header {
   height          : 30rem;
   background-image: url("../images/glasses-bg.png");
   background-size : cover;
-  font-style      : 1rem;
+  font-size      : 1rem;
   flex-direction  : column;
 }
 
@@ -59,7 +59,7 @@ nav {
 h2 {
   color           : white;
   background-color: cadetblue;
-  font-style      : 1rem;
+  font-size      : 1rem;
   font-weight     : bold;
 }
 
