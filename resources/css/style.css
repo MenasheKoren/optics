@@ -63,7 +63,7 @@ nav li {
 .main-banner {
   display         : flex;
   margin-top      : 10rem;
-  margin-right    : 2rem;
+  margin-right    : -2rem;
   padding         : 1.5rem 5rem;
   background-color: white;
   font-size       : 2rem;
