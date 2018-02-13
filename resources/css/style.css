@@ -27,8 +27,8 @@ header {
   height           : 30rem;
   margin           : 0;
   background-image : url("../images/glasses-bg.png");
-  background-size  : cover;
   background-repeat: no-repeat;
+  background-size  : cover;
   font-size        : 1rem;
   flex-direction   : column;
 }
@@ -84,13 +84,32 @@ main {
 }
 
 main ul {
-  display: flex;
+  display  : inline-flex;
+  flex-flow: row wrap;
+  width    : 100%;
 }
 
-main li {
-  display       : flex;
-  flex-direction: column;
+.icons {
+  display        : flex;
+  flex-flow      : column nowrap;
+  justify-content: center;
+  align-items    : center;
+  height         : 8rem;
 }
+
+.icons img {
+  width : 3.5rem;
+  height: auto;
+}
+
+.graphs {
+  display        : flex;
+  flex-flow      : row wrap;
+  justify-content: center;
+  width          : 35%;
+}
+
+.graphs h2 {}
 
 footer {
   display         : flex;
