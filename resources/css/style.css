@@ -8,9 +8,13 @@ body {
   line-height: 1.4;
 }
 
-.flex-container {
+.container {
   max-width: 960px;
   margin: 0;
+}
+
+.flex {
+  display: flex;
 }
 
 a {
@@ -22,17 +26,23 @@ ul {
   list-style-type: none;
 }
 
+h2 {
+  color: white;
+  background-color: cadetblue;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Header */
+
 header {
-  display: flex;
   height: 30rem;
   margin: 0;
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  align-items: flex-start;
-  font-size: 1rem;
-  flex-direction: column;
-  justify-content: center;
+  background-position: center;
+  padding-top: 1rem;
 }
 
 .logo {
@@ -74,22 +84,21 @@ nav li {
   line-height: 1.2;
 }
 
-h2 {
-  color: white;
-  background-color: cadetblue;
-  font-size: 1rem;
-  font-weight: bold;
-}
+/* Main */
 
 main {
   /* background-color: #fff; */
 }
 
-main flex-container {
+/* Sections  */
+
+main .flex-container {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
+
+/* Icon section  */
 
 .icons {
   display: flex;
@@ -112,21 +121,22 @@ section {
   flex-direction: column;
 }
 
+/* Info section  */
+
 .graphs {
   display: flex;
   width: 35%;
   height: auto;
+  margin-right: 5%;
   flex-direction: row;
   justify-content: center;
-  margin-right: 5%;
 }
 
-footer {
-  display: flex;
+footer .flex {
+  padding: 4rem 2rem;
   background-color: azure;
   align-items: center;
   flex-direction: row;
-  padding: 4rem 2rem;
 }
 
 footer img {
