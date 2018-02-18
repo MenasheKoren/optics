@@ -10,7 +10,7 @@ body {
 
 .flex-container {
   max-width: 960px;
-  margin: auto;
+  margin: 0;
 }
 
 a {
@@ -85,30 +85,40 @@ main {
   /* background-color: #fff; */
 }
 
-main ul {
-  display: inline-flex;
+main flex-container {
+  display: flex;
   width: 100%;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
-main ul {
+.icons {
   display: flex;
   height: 8rem;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-direction: row;
   justify-content: center;
 }
 
-main ul img {
+.icons img {
   width: 3.5rem;
   height: auto;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .graphs {
   display: flex;
   width: 35%;
-  flex-flow: row wrap;
+  height: auto;
+  flex-direction: row;
   justify-content: center;
+  margin-right: 5%;
 }
 
 footer {
