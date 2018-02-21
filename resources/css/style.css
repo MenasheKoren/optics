@@ -72,6 +72,10 @@ nav li {
   padding-left: 2rem;
 }
 
+.truncated-menu {
+  display: none;
+}
+
 .main-banner {
   display: flex;
   margin-top: 10rem;
@@ -137,10 +141,6 @@ footer .flex {
   background-color: azure;
   align-items: center;
   flex-direction: row;
-<<<<<<< HEAD
-=======
-  margin: 4rem;
->>>>>>> 3ef16e69ed9689d52c4fa34ddb962049a2f14764
 }
 
 footer img {
