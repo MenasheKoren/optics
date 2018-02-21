@@ -90,13 +90,11 @@ nav li {
 
 /* Main */
 
-main {
-   background-color: red;
-}
+
 
 /* Sections  */
 
-main .flex-container {
+main .flex {
   display: flex;
   width: 100%;
   flex-direction: column;
