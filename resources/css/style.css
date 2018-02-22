@@ -93,19 +93,10 @@ header .flex {
 
 /* Sections  */
 
-main .flex {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-}
-
 /* Icon section  */
 
 .icons {
   display: flex;
-  height: 8rem;
-  align-items: center;
-  flex-direction: row;
   justify-content: center;
 }
 
