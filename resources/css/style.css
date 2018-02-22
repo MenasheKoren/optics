@@ -26,18 +26,10 @@ ul {
   list-style-type: none;
 }
 
-h2 {
-  color: white;
-  background-color: cadetblue;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 /* Header */
 
 header {
   height: 30rem;
-  margin: 0;
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,52 +37,59 @@ header {
   padding-top: 1rem;
 }
 
-.logo {
-  display: flex;
-  margin: 1rem 0;
-  padding: 1rem 2rem;
-  color: white;
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em 0;
+}
+
+nav {
+  padding: 1rem 0;
   background-color: cadetblue;
-  align-items: flex-start;
-  font-size: 1rem;
-  flex-flow: row nowrap;
+  color: white;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
-.logo img {
-  height: 1.5rem;
-  padding-right: 1rem;
-}
-
-.logo-title {
+nav div {
   display: flex;
   align-items: center;
 }
 
-nav li {
-  display: inline-flex;
-  padding-left: 2rem;
+nav img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+ul {
+  margin-right: 1rem;
 }
 
 .truncated-menu {
   display: none;
 }
 
+header .flex {
+  justify-content: flex-end;
+}
+
 .main-banner {
-  display: flex;
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
   margin-top: 10rem;
   margin-right: -2rem;
-  padding: 1.5rem 5rem;
-  background-color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  justify-content: flex-end;
-  line-height: 1.2;
+  line-height: 2.4rem;
 }
 
 /* Main */
-
-
 
 /* Sections  */
 
@@ -98,7 +97,6 @@ main .flex {
   display: flex;
   width: 100%;
   flex-direction: column;
-  
 }
 
 /* Icon section  */
