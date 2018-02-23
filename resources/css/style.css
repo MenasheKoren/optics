@@ -89,9 +89,12 @@ header .flex {
   line-height: 2.4rem;
 }
 
-/* Main */
-
 /* Sections  */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
 
 /* Icon section  */
 
@@ -115,7 +118,7 @@ section {
 
 /* Info section  */
 
-.graphs {
+.info {
   display: flex;
   width: 35%;
   height: auto;
