@@ -76,7 +76,7 @@ ul {
   display: none;
 }
 
-header .flex {
+header.flex {
   justify-content: flex-end;
 }
 
@@ -115,7 +115,7 @@ header .flex {
   margin-bottom: 1rem;
 }
 
-.icons img .paper-icon {
+.icons img.paper-icon {
   width: 3.5rem;
 }
 
@@ -169,7 +169,7 @@ footer img {
     height: 22rem;
     padding-top: 0;
   }
-  nav .container {
+  nav.container {
     max-width: 100%
   }
   .main-banner {
@@ -190,10 +190,10 @@ footer img {
     padding-top: 0;
     background-position: 20%;
   }
-  .menu ul {
+  ul.menu {
     display: none;
   }
-  .truncated-menu ul {
+  ul.truncated-menu {
     display: block;
   }
   h1 {
@@ -220,7 +220,7 @@ footer img {
     width: auto;
   }
 
-  .info .title {
+  .info.title {
     width: 100%;
     max-width: 100%;
     text-align: center;
