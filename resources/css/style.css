@@ -98,7 +98,10 @@ header.flex {
 }
 
 /* Icon section  */
-
+.supporting-icons{
+  display: flex;
+  flex-direction: row;
+}
 .icons {
   display: flex;
   flex-direction: column;
@@ -190,10 +193,10 @@ footer img {
     padding-top: 0;
     background-position: 20%;
   }
-  ul.menu {
+  .menu {
     display: none;
   }
-  ul.truncated-menu {
+  .truncated-menu {
     display: block;
   }
   h1 {
