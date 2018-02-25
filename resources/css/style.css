@@ -76,7 +76,7 @@ ul {
   display: none;
 }
 
-header.flex {
+header .flex {
   justify-content: flex-end;
 }
 
