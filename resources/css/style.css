@@ -148,9 +148,10 @@ section {
 
 /* Footer */
 
-footer .flex {
+footer {
   padding: 4rem 2rem;
   background-color: azure;
+  display: flex;
   align-items: center;
 }
 
