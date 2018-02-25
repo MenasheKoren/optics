@@ -98,10 +98,12 @@ header .flex {
 }
 
 /* Icon section  */
-.supporting-icons{
+
+.supporting-icons {
   display: flex;
   flex-direction: row;
 }
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -191,6 +193,7 @@ footer img {
   header {
     height: 17rem;
     padding-top: 0;
+    padding-bottom: 3rem;
     background-position: 20%;
   }
   ul.desktop {
@@ -208,11 +211,18 @@ footer img {
     width: 100%;
     text-align: center;
   }
-  section.supporting {
+  .supporting {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin-top: 3rem;
+  }
+  .supporting-icons {
+    flex-direction: column;
+    margin-top: 3.77rem;
+  }
+  .icons {
+    margin-bottom: 1.54rem;
   }
   .service {
     height: auto;
@@ -222,13 +232,11 @@ footer img {
   .info {
     width: auto;
   }
-
   .info .title {
     width: 100%;
     max-width: 100%;
     text-align: center;
   }
-
   .info p {
     padding: 1rem;
     font-size: .77rem;
