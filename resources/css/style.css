@@ -193,7 +193,7 @@ footer img {
     padding-top: 0;
     background-position: 20%;
   }
-  .menu {
+  ul .desktop {
     display: none;
   }
   .truncated-menu {
@@ -223,7 +223,7 @@ footer img {
     width: auto;
   }
 
-  .info.title {
+  .info .title {
     width: 100%;
     max-width: 100%;
     text-align: center;
